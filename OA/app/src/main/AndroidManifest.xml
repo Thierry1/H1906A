@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.longhengrui.oa">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:name=".app.App"
+        android:allowBackup="true"
+        android:exported="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/FlagTheme">
+        <activity android:name=".mvp.ui.activity.MyDataActivity"></activity>
+        <activity android:name=".mvp.ui.activity.RetrievePasswordActivity" />
+        <activity android:name=".mvp.ui.activity.GuidePageActivity" />
+        <activity android:name=".mvp.ui.activity.HomepageActivity" />
+        <activity android:name=".mvp.ui.activity.ScanActivity" />
+        <activity android:name=".mvp.ui.activity.ForgetThePasswordActivity" />
+        <activity android:name=".mvp.ui.activity.AgreementActivity" />
+        <activity android:name=".mvp.ui.activity.StartMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".mvp.ui.activity.VideoMainActivity" />
+        <activity android:name=".mvp.ui.activity.JoinUsMainActivity" />
+        <activity android:name=".mvp.ui.activity.LoginActivity" />
+        <activity android:name=".mvp.ui.activity.MessageMainActivity" />
+        <activity android:name=".mvp.ui.activity.MyMainActivity" />
+        <activity android:name=".mvp.ui.activity.GeneralizeMainActivity" />
+        <activity android:name=".mvp.ui.activity.ReginActivity" />
+        <activity android:name=".mvp.ui.activity.ListMainActivity" />
+        <activity android:name=".mvp.ui.activity.QRcodeActivity" />
+        <activity android:name=".mvp.ui.activity.SettingActivity" />
+        <activity android:name=".mvp.ui.activity.SettingHeadActivity" />
+        <activity android:name=".mvp.ui.activity.SettingUserActivity" />
+    </application>
+
+</manifest>

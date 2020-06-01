@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+   <!-- <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_46"
+        app:titleTextColor="@color/grey_first">
+        <ImageView
+            android:id="@+id/toolbar_img"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_width="@dimen/dp_15"
+            android:layout_height="@dimen/dp_15"
+            android:src="@mipmap/ic_back"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="举报"
+            android:textSize="@dimen/dp_15"/>
+    </android.support.v7.widget.Toolbar>
+    <View
+        android:id="@+id/title_cut_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0_5"
+        android:layout_below="@+id/toolBar"
+        android:background="@color/grey_third" />
+    <TextView
+        android:id="@+id/des_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_cut_line"
+        android:layout_margin="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_30"
+        android:text="这条评论存在什么问题"
+        android:textColor="@color/grey_third"
+        android:textSize="@dimen/sp_13" />
+   <android.support.v7.widget.RecyclerView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/report_data"
+       android:layout_marginLeft="@dimen/dp_10"
+       android:layout_below="@+id/des_text"/>
+    <TextView
+        android:id="@+id/help_des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/report_data"
+        android:layout_margin="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_30"
+        android:text="为帮助审核人员快速速度处理，请补充违规内容、出现位置等详细信息。"
+        android:textColor="@color/grey_third"
+        android:textSize="@dimen/sp_13" />
+    <RelativeLayout
+        android:id="@+id/edit_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/help_des"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10"
+        android:padding="@dimen/dp_10"
+        android:background="@drawable/question_and_feedback_shape_bg"
+        android:minHeight="@dimen/dp_150">
+
+        <EditText
+            android:id="@+id/question_or_advise_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="笔记类型还需要再丰富一些"
+            android:textColor="@color/grey_first"
+            android:textColorHint="@color/grey_second"
+            android:textSize="@dimen/sp_13" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/dp_140"
+            android:gravity="bottom"
+            android:id="@+id/word_num_text"
+            android:text="0/200"
+            android:textSize="@dimen/sp_10"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/commit_report"
+        android:layout_width="match_parent"
+        android:layout_marginRight="@dimen/dp_50"
+        android:layout_marginLeft="@dimen/dp_50"
+        android:paddingTop="@dimen/dp_10"
+        android:paddingBottom="@dimen/dp_10"
+        android:text="提交投诉"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_16"
+        android:gravity="center"
+        android:layout_below="@+id/edit_bg"
+        android:layout_marginTop="@dimen/dp_30"
+        android:onClick="commitReport"
+        android:background="@drawable/report_shape_bg"
+        android:layout_height="wrap_content" />-->
+</RelativeLayout>
